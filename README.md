@@ -12,7 +12,6 @@ Additionally, it includes a **contract generation** feature using the **Google G
 - [Features](#features)
 - [Contract Creation with Gemini API](#contract-creation-with-gemini-api)
 - [Installation](#installation)
-- [Usage](#usage)
 - [API Endpoints](#api-endpoints)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
@@ -37,6 +36,7 @@ Rental Agreement Risk Detector is designed to help tenants and landlords ensure 
   - React
   - React Router
   - Vite (for fast builds)
+  - Tailwind CSS
 
 - **Backend:**
   - Node.js
@@ -87,8 +87,8 @@ To set up this project locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/rental-agreement-risk-detector.git
-   cd rental-agreement-risk-detector
+   git clone https://github.com/jaitaneja605/rental-hack.git
+   cd rental-hack
    ```
 
 2. **Install Backend Dependencies**:
@@ -105,16 +105,12 @@ To set up this project locally, follow these steps:
    npm install
    ```
 
-4. **Set up Environment Variables**:
-   Copy `.env.example` to `.env` and modify the environment variables according to your setup:
-   ```bash
-   cp .env.example .env
-   ```
+4. **Set up Environment Variables**
 
 5. **Run the Backend**:
    In the backend folder, start the server:
    ```bash
-   npm start
+   npm run dev
    ```
 
 6. **Run the Frontend**:
