@@ -1,4 +1,4 @@
-# Rental Agreement Risk Detector
+# SafeRent - Rental Agreement Risk Detector & Contract Generator
 
 This project is a web application designed to help tenants and landlords analyze rental agreements for hidden fees, unfair clauses, and legal risks. The app uses Natural Language Processing (NLP) to evaluate contracts and offers suggestions for fairer terms. It also features a **Tenant & Landlord Trust Score** system based on rental history, payment behavior, and property care, helping users make informed decisions. 
 
